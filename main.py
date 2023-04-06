@@ -9,7 +9,7 @@ else:
             primo = False
             break
         contador += 1
-    if primo:
+    if primo and num != 1:
         print('Primo')
     else:
         print('Não primo')
